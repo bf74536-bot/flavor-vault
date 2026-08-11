@@ -1,0 +1,25 @@
+# Robots.txt for FlavorVault
+# https://flavorvault.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://flavorvault.app/sitemap.xml
+
+# Allow all crawlers to index the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow any admin or private areas (if added in future)
+Disallow: /api/
+Disallow: /_protected/
